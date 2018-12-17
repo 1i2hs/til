@@ -86,6 +86,7 @@ For `IBM Cloud`, Ingress is available for standard clusters only and requires at
 
 
 ## About Istio basics
+### Service mesh
 ### Data Plane
 #### Envoy
 
