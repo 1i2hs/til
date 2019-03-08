@@ -1,5 +1,7 @@
 # Scala
 ## Conversions between Java and Scala collections
+**Date written: 2019-03-04**
+
 It can be done using JavaConverters
 
 The following conversions are supported via asScala and asJava:
@@ -33,6 +35,8 @@ java.util.Properties => scala.collection.mutable.Map
 In scala `JavaConverters` class's conversion methods are imported as implicit method, so the methods such as asJava can be used directly from scala collection instance(e.g. list.asJava). However in Java, the class methods are given as static method, so you have to call conversion methods directly from the class(e.g. `JavaConverters.asScalaBufferConverter(<some java collection object as parameter>).asScala()`) .
 
 ## How to import package object of Scala into Java code?
+**Date written: 2019-03-04**
+
 example scala code:
 ```
 package com.inho
@@ -54,3 +58,4 @@ public class B {
 }
 
 ```
+## circe.io.Json

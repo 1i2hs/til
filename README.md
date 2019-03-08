@@ -11,6 +11,7 @@ A collection of write-ups on things I learned day by day. This writings are writ
 
 ### Build tools
 - [sbt](http://github.com/1i2hs/til/tree/master/sbt)
+- [Gradle](http://github.com/1i2hs/til/tree/master/sbt)
 
 ### Operations
 - [Git](http://github.com/1i2hs/til/tree/master/Git)

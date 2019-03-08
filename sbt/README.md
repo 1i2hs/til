@@ -1,5 +1,7 @@
 # sbt
 ## sbt-assembly : how to make executable jar/how to specify main class for scala project in `build.sbt` file?
+**Date written: 2019-03-04**
+
 you have to use `mainClass in assembly` like the following:
 ```
 mainClass in assembly := Some("com.example.Main")
