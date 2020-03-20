@@ -38,7 +38,7 @@ In scala `JavaConverters` class's conversion methods are imported as implicit me
 **Date written: 2019-03-04**
 
 example scala code:
-```
+```scala
 package com.inho
 
 package object a {
@@ -46,7 +46,7 @@ package object a {
 }
 ```
 example java code which uses scala code above:
-```
+```scala
 package com.something;
 
 import com.a.package$;

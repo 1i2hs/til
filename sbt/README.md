@@ -3,11 +3,11 @@
 **Date written: 2019-03-04**
 
 you have to use `mainClass in assembly` like the following:
-```
+```scala
 mainClass in assembly := Some("com.example.Main")
 ```
 you can also use it in multi-project build.sbt to specify what is main class in each project:
-```
+```scala
 lazy val commonSettings = Seq(
   version := "0.1-SNAPSHOT",
   organization := "com.example",
